@@ -1,0 +1,2 @@
+C:\Users\Axel Yildiz\Documents\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Axel Yildiz\Documents\PeopleRating\bin\PeopleRating\PeopleRating.csproj;x86

@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Business_Logic.People;
 
+
 public class Loop : MonoBehaviour
 {
     public Text completeName;

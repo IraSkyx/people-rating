@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap uap2 mp rescap" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  <Identity Name="PeopleRating" Publisher="CN=DefaultCompany" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="64edd8b2-6f5d-4999-b2ce-b6c446e732aa" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>PeopleRating</DisplayName>
+    <PublisherDisplayName>IraSkyx</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.16299.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="PeopleRating.App">
+      <uap:VisualElements DisplayName="PeopleRating" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="QR Code recognition on Hololens to identify people. Features a rating option." BackgroundColor="transparent">
+        <uap:DefaultTile ShortName="WatchU Hololens" Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <uap:Capability Name="enterpriseAuthentication" />
+    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <uap:Capability Name="musicLibrary" />
+    <uap:Capability Name="picturesLibrary" />
+    <Capability Name="privateNetworkClientServer" />
+    <uap:Capability Name="removableStorage" />
+    <uap:Capability Name="sharedUserCertificates" />
+    <uap:Capability Name="videosLibrary" />
+    <Capability Name="allJoyn" />
+    <uap:Capability Name="blockedChatMessages" />
+    <uap:Capability Name="chat" />
+    <Capability Name="codeGeneration" />
+    <uap:Capability Name="objects3D" />
+    <uap:Capability Name="phoneCall" />
+    <uap:Capability Name="userAccountInformation" />
+    <uap:Capability Name="voipCall" />
+    <uap2:Capability Name="spatialPerception" />
+    <rescap:Capability Name="inputInjectionBrokered" />
+    <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="proximity" />
+    <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="location" />
+    <DeviceCapability Name="humaninterfacedevice">
+      <Device Id="any">
+        <Function Type="usage:0001 0004" />
+      </Device>
+      <Device Id="any">
+        <Function Type="usage:0001 0005" />
+      </Device>
+    </DeviceCapability>
+    <DeviceCapability Name="bluetooth" />
+  </Capabilities>
+</Package>
