@@ -1,2 +1,2 @@
-C:\Users\Axel Yildiz\Documents\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
-C:\Users\Axel Yildiz\Documents\PeopleRating\bin\PeopleRating\PeopleRating.csproj;x86
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\PeopleRating\PeopleRating.csproj;x86

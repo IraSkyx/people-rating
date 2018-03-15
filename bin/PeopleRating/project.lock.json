@@ -12742,7 +12742,7 @@
       ]
     },
     "Microsoft.NETCore.Runtime.CoreCLR-arm/1.0.0": {
-      "sha512": "vUQyaKbHCa7BJAAzdfCP2FfBYOSt0YnDw7VMJLmD1/k68HIJgw1QO7GAfHhqoa39zkkvimC47QBH27wG4C5OGQ==",
+      "sha512": "hoJfIl981eXwn9Tz8onO/J1xaYApIfp/YrhjSh9rRhml1U5Wj80LBgyp/6n+KI3VlvcAraThhnHnCTp+M3Uh+w==",
       "type": "package",
       "path": "microsoft.netcore.runtime.coreclr-arm/1.0.0",
       "files": [
@@ -15849,25 +15849,20 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\Axel Yildiz\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\Adrien\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Axel Yildiz\\Documents\\PeopleRating\\bin\\PeopleRating\\PeopleRating.csproj",
+      "projectUniqueName": "C:\\Users\\Adrien\\Documents\\GitHub\\PeopleRating\\bin\\PeopleRating\\PeopleRating.csproj",
       "projectName": "PeopleRating",
-      "projectPath": "C:\\Users\\Axel Yildiz\\Documents\\PeopleRating\\bin\\PeopleRating\\PeopleRating.csproj",
-      "projectJsonPath": "C:\\Users\\Axel Yildiz\\Documents\\PeopleRating\\bin\\PeopleRating\\project.json",
-      "packagesPath": "C:\\Users\\Axel Yildiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Axel Yildiz\\Documents\\PeopleRating\\bin\\PeopleRating\\obj\\",
+      "projectPath": "C:\\Users\\Adrien\\Documents\\GitHub\\PeopleRating\\bin\\PeopleRating\\PeopleRating.csproj",
+      "projectJsonPath": "C:\\Users\\Adrien\\Documents\\GitHub\\PeopleRating\\bin\\PeopleRating\\project.json",
+      "packagesPath": "C:\\Users\\Adrien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adrien\\Documents\\GitHub\\PeopleRating\\bin\\PeopleRating\\obj\\",
       "projectStyle": "ProjectJson",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Axel Yildiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\Adrien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -15876,18 +15871,18 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\Axel Yildiz\\Documents\\PeopleRating\\bin\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\Axel Yildiz\\Documents\\PeopleRating\\bin\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\Users\\Adrien\\Documents\\GitHub\\PeopleRating\\bin\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\Adrien\\Documents\\GitHub\\PeopleRating\\bin\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             }
           }
         }
       }
     },
     "dependencies": {
-      "Microsoft.ApplicationInsights": "[1.0.0, )",
-      "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
-      "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
-      "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      "Microsoft.ApplicationInsights": "1.0.0",
+      "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+      "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+      "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
     },
     "frameworks": {
       "uap10.0.10240": {}

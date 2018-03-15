@@ -10,8 +10,9 @@ using System.Linq;
 public class LoopToolkit : MonoBehaviour
 {
     public Dictionary<Person, Canvas> people = new Dictionary<Person, Canvas>();
-    public HoloToolkit.Unity.InputModule.Cursor cursor;
+    public HoloToolkit.Unity.InputModule.InteractiveMeshCursor cursor;
     public Canvas template;
+    public Camera camera;
 
     // Use this for initialization
     void Start()
@@ -22,11 +23,12 @@ public class LoopToolkit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log(cursor.transform.localToWorldMatrix.lossyScale);  
     }
 
     private void UpdateValues(Canvas canvas)
     {
-        canvas.transform.SetPositionAndRotation(cursor.Position, cursor.Rotation);
+        canvas.transform.SetPositionAndRotation(camera.ViewportToWorldPoint(camera.cameraToWorldMatrix.lossyScale), Quaternion.identity);
     }
 
     void ReadQR()
@@ -43,9 +45,8 @@ public class LoopToolkit : MonoBehaviour
                                {
                                     Person person = JsonUtility.FromJson<Person>(result.Text);
                                     if (person != null && !people.ContainsKey(person))
-                                    {
-                                        Debug.Log(person);
-                                        AssignValues(person, Instantiate(template, transform.parent, true));
+                                    {                                     
+                                        AssignValues(person, Instantiate(template, cursor.transform.position, Quaternion.identity));
                                     }
                                     else if(people.ContainsKey(person))
                                     {
@@ -66,9 +67,6 @@ public class LoopToolkit : MonoBehaviour
 
     void AssignValues(Person person, Canvas canvas)
     {
-        foreach (var value in canvas.GetComponentsInChildren<Text>())
-            Debug.Log(value.ToString());
-
         canvas.GetComponentsInChildren<Text>().First(x => x.gameObject.name.Equals("CompleteName")).text = person.completeName;
         canvas.GetComponentsInChildren<Text>().First(x => x.gameObject.name.Equals("Age")).text = "Age: " + person.age;
         canvas.GetComponentsInChildren<Text>().First(x => x.gameObject.name.Equals("Occupation")).text = "Occupation: " + person.occupation;

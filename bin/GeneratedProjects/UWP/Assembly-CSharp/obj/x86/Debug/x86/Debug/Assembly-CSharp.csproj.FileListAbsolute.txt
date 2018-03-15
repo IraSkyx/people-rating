@@ -16,3 +16,21 @@ C:\Users\Axel Yildiz\Documents\PeopleRating\bin\GeneratedProjects\UWP\Assembly-C
 C:\Users\Axel Yildiz\Documents\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\qualifiers.txt
 C:\Users\Axel Yildiz\Documents\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Axel Yildiz\Documents\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\bin\x86\Debug\Assembly-CSharp.dll
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\bin\x86\Debug\Assembly-CSharp.pdb
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\bin\x86\Debug\Assembly-CSharp.pri
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\Assembly-CSharp.dll
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\Assembly-CSharp.pdb
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\priconfig.xml
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\priconfig.xml.intermediate
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\layout.resfiles
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\layout.resfiles.intermediate
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\resources.resfiles
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\resources.resfiles.intermediate
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\pri.resfiles
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\pri.resfiles.intermediate
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\qualifiers.txt
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Adrien\Documents\GitHub\PeopleRating\bin\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\MultipleQualifiersPerDimensionFound.txt

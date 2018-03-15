@@ -7,9 +7,9 @@
 # Default behavior is to never overwrite files
 PeopleRating.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
-PeopleRating\App.cs: FF2CCCA0489AEE21DC215C82D6D1583B
+PeopleRating\App.cs: modified
 PeopleRating\Package.appxmanifest: 7853375A60C50292EE0FC10CDB5BF156
-PeopleRating\PeopleRating.csproj: CD50ADC9576FD3C0FAE76106C48D76FC
+PeopleRating\PeopleRating.csproj: modified
 PeopleRating\PeopleRating.csproj.user: modified
 PeopleRating\project.json: 1D02BC64BAC0D041019673A1C4C51737
 PeopleRating\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
